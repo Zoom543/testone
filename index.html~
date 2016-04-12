@@ -1,0 +1,43 @@
+s<!DOCTYPE html>
+<html>
+<head>
+	<title>TO-DO LIST</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="test.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	<script type="text/javascript" src="test.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+</head>
+<body>
+	
+	<div class="container-fluid">
+	
+		<div class="heading"><h2 id="H" class="text-center"><b>TO-DO!!</b></h2></div>
+
+		<form id="addForm">
+			<div class="row text-field">
+				<div class="col-xs-10">
+					<input  class="form-control" id="taskEntered" type="text" placeholder="Add your task here" required></input>
+				</div>
+				<div class="col-xs-2">
+					<button title="Add Task to List" class="btn btn-default btn-block" id="Add"><b>ADD</b></button>
+				</div>
+			</div>
+		</form>
+
+		<div class="well" id="to-be-done">
+			<h3>To Be Done:</h3>
+		</div>
+
+		<div class="well" id="done">
+			<h3>Completed:</h3>
+		</div>
+
+	</div>
+
+
+</body>
+</html>
